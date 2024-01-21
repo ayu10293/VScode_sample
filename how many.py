@@ -26,6 +26,6 @@ print("持ってる数" + str(have_total))
 print("レア" + str(goal_rarity) + "の必要数" + str(goal_count))
 rest = goal_count - have_total
 if rest <= 0:
-    print("もう作れる")
+    print("もう作れる") 
 else:
     print("あと白換算で" + str(rest))
